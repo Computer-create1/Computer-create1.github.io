@@ -1,0 +1,242 @@
+@media only screen and (max-width:1200px){
+    .hed-footer-setting{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lorem-hed{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:1012px){
+    .hed-a a{
+        margin: 5%;
+    }
+
+    .prof-titel{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .prof-titel p{
+        margin-bottom: 7%;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .table1{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .table2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .table1 div {
+        border-left: none; 
+    }
+    
+    .table2 div {
+        border-left: none; 
+    }
+
+    .input__input {
+        width: 40%; 
+    }
+    
+    .input__button{
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width:700px){
+    .hed-h1-conteiner h1{
+        margin-left: -10%;
+        align-items: center;
+        font-size: 300%;
+    }
+
+    .time{
+        margin-left: 10%;
+    }
+
+    .statistick p{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:650px){
+   
+    .teach-hed{
+        display: flex;
+        flex-direction: column;
+    }
+    .statistick{
+        display: none;
+    }
+
+    .teacher-setting {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .teacher-persone{
+        text-align: center;
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .hed{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hed-a{
+        margin-top: 2%;
+    }
+
+    .hed-button{
+        margin-top: 8%;
+    }
+
+    .left {
+        left: 0px;
+    }  
+    
+    .timeline::after {
+        left: 5%;
+      }
+    
+    /* Full-width containers */
+      .container {
+        width: 90%;
+        padding-left: 10%;
+        padding-right: 0;
+      }
+    
+    /* Make sure that all arrows are pointing leftwards */
+      .container::before {
+        left: 10%;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+      }
+    
+    /* Make sure all circles are at the same spot */
+      .left::after, .right::after {
+        left: 15px;
+      }
+    
+    /* Make all right containers behave like the left ones */
+    .right {
+        left: 0%;
+      
+    }
+
+    .left h3{
+        color: white;
+        text-align: left;
+    }
+    .left p{
+        color: white;
+        text-align: left;
+    }
+    
+   
+}
+
+@media only screen and (max-width:526px){
+    .computer-img{
+        background: none;
+        width: 100%;
+        height: 70%;
+    }
+
+    .input{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input__button{
+        width: 40%;
+        margin-top: 4%;
+        border-radius: 0px;
+        border-radius:  50px;
+    }
+
+    .input__input{
+        width: 70%;
+        border-radius:  50px;
+    }
+}
+
+
+@media only screen and (max-width:500px){
+    .time{
+        display: none;
+    }
+
+    .hed-h1-conteiner h1 {
+        font-size: 250%;
+        margin-top: 40%;
+    }
+
+    .programm-hed h1{
+        font-size: 250%;
+        
+    }
+
+
+}
+
+@media only screen and (max-width:450px){
+    .fast-start{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .partner{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .partner h2{
+        text-align: center;
+    }
+
+    .teach-hed h1{
+        font-size: 200%;
+    }
+
+}
+
+@media only screen and (max-width:320px){
+    .hed-h1-conteiner h1 {
+        font-size: 200%;
+        margin-top: 60%;
+    }
+
+    .hed-button{
+        margin-top: 25%;
+    }
+
+    .hed-a{
+        margin-top: 12%;
+    }
+
+    .lorem-text h1{
+        font-size: 250%;
+    }
+}
+    
+
